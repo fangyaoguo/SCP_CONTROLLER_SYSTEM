@@ -128,6 +128,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PrintScreen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PrintScreen.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SCP_CONTROLLER_SYSTEM.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\downloads\20231021230430_33246_64.ico" />
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\downloads\V.A. - 二级警报BGM (2).wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
