@@ -58,6 +58,7 @@ void PrintScreen::title(char tittle_name[] )
     system(command.data());
    
 }
+
 // 设置窗口大小
 void PrintScreen::scsize(int x, int y)
 {
