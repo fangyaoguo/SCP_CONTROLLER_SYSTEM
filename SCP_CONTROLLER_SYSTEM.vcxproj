@@ -128,9 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="person.cpp" />
     <ClCompile Include="PrintScreen.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="person.h" />
     <ClInclude Include="PrintScreen.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
@@ -143,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <Media Include="..\..\..\downloads\V.A. - 二级警报BGM (2).wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

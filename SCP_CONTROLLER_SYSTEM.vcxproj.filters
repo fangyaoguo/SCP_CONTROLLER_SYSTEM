@@ -21,12 +21,18 @@
     <ClCompile Include="PrintScreen.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="person.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PrintScreen.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="person.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,5 +53,8 @@
     <Media Include="..\..\..\downloads\V.A. - 二级警报BGM (2).wav">
       <Filter>资源文件</Filter>
     </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
